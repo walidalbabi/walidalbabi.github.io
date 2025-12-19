@@ -2,88 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Walid Al Babi — Unity Tools Publisher</title>
+  <title>Phoenix Realm Publisher — Ragdoll Creator Pro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Unity editor tools and workflows by Walid Al Babi. Product info and support.">
+  <meta name="description" content="Ragdoll Creator Pro: universal ragdoll creation for any creature rig, with pooling, LOD, and hitbox tools. Support and contact included.">
   <style>
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 48px 20px;
-    }
-    h1, h2 {
-      color: #ffffff;
-    }
-    .card {
-      background: #111827;
-      border-radius: 14px;
-      padding: 24px;
-      margin-top: 24px;
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-    a {
-      color: #60a5fa;
-      text-decoration: none;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 10px 14px;
-      background: #2563eb;
-      color: white;
-      border-radius: 10px;
-    }
-    footer {
-      margin-top: 48px;
-      font-size: 14px;
-      opacity: 0.7;
-    }
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b1020;color:#e9ecf1;line-height:1.6}
+    a{color:#7dd3fc;text-decoration:none}
+    .wrap{max-width:1050px;margin:0 auto;padding:44px 18px}
+    .top{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:48px;height:48px;border-radius:12px;object-fit:cover;border:1px solid rgba(255,255,255,.12)}
+    .muted{opacity:.78}
+    .card{background:#111833;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px;margin-top:16px}
+    .btn{display:inline-block;background:#2563eb;color:white;padding:10px 14px;border-radius:12px;margin-right:10px;margin-top:10px}
+    .pill{display:inline-block;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 10px;margin:6px 8px 0 0;opacity:.9}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:920px){.grid{grid-template-columns:1.25fr .75fr}}
+    .heroimg{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.10);display:block}
+    ul{margin:10px 0 0 18px}
+    footer{margin-top:34px;font-size:14px;opacity:.7}
+    code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:8px}
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Walid Al Babi</h1>
-    <p>Unity tools & editor extensions. Product pages, documentation, and customer support.</p>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">
+        <img class="logo" src="assets/logo.jpg" alt="Phoenix Realm Publisher logo">
+        <div>
+          <div style="font-weight:700;font-size:20px">Phoenix Realm Publisher</div>
+          <div class="muted">Unity tools & editor extensions — production-focused workflows and support.</div>
+        </div>
+      </div>
 
-    <div class="card">
-      <h2>Featured Product</h2>
-      <p>
-        <strong>[YOUR TOOL NAME]</strong> — short description of what the tool does and who it is for.
-      </p>
-      <ul>
-        <li>Unity editor tool / workflow improvement</li>
-        <li>Designed for production use</li>
-        <li>Actively maintained</li>
-      </ul>
-
-      <a class="btn" href="support.html">Support & Contact</a>
+      <div>
+        <a class="btn" href="support.html">Support / Contact</a>
+        <a class="btn" href="privacy.html">Privacy</a>
+      </div>
     </div>
 
     <div class="card">
-      <h2>About</h2>
-      <p>
-        I build Unity editor tools focused on improving development workflows,
-        clarity, and iteration speed.
-      </p>
-
-      <p>
-        GitHub:
-        <a href="https://github.com/walidalbabi">github.com/walidalbabi</a><br>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/walidalbabi/">linkedin.com/in/walidalbabi</a>
-      </p>
+      <img class="heroimg" src="assets/ragdollcreatorpro_banner.jpg" alt="Ragdoll Creator Pro banner">
     </div>
 
-    <footer>
-      © 2025 Walid Al Babi
-    </footer>
+    <div class="grid">
+      <section class="card">
+        <h1 style="margin-top:0">Ragdoll Creator Pro</h1>
+        <p><strong>Summary:</strong> Create fully functional ragdolls for any creature — spiders, dragons, or custom rigs — with built-in pooling, LOD, and hitbox tools for optimized performance.</p>
+
+        <div>
+          <span class="pill">Unity 6+</span>
+          <span class="pill">URP / HDRP / Built-in</span>
+          <span class="pill">All platforms</span>
+        </div>
+
+        <h2>Overview</h2>
+        <p>
+          Ragdoll Creator Pro is a complete editor tool that brings advanced ragdoll creation to any character — humanoid or not.
+          Unlike Unity’s built-in wizard (humanoid-focused), this tool supports spiders, quadrupeds, and custom skeletal setups
+          with an intuitive workflow and performance-minded systems.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+          <li><strong>Universal Ragdoll Builder:</strong> Works with any bone structure (not limited to humanoids).</li>
+          <li><strong>Visual Setup Workflow:</strong> Configure bones, collider shapes, and joint limits in an editor window.</li>
+          <li><strong>Optimized Ragdoll System:</strong> Separates ragdolls from active characters for minimal overhead.</li>
+          <li><strong>Pooling Integration:</strong> Reuse ragdoll instances by spawning and syncing poses on demand.</li>
+          <li><strong>Ragdoll LOD:</strong> Freeze/deactivate distant ragdolls to save CPU time.</li>
+          <li><strong>Hitbox Generator:</strong> Copy collider shapes to create precise hit detection zones.</li>
+        </ul>
+
+        <h2>Package Contents</h2>
+        <ul>
+          <li>Demo Scene (Spider Example)</li>
+          <li>Full Editor Tool Source Code</li>
+          <li>Ragdoll Optimization + Pooling Systems</li>
+          <li>Hitbox Generator Tool</li>
+          <li>Video Tutorials (YouTube)</li>
+        </ul>
+
+        <h2>Support</h2>
+        <p>
+          For support, email <strong>walid.b@phoenixrealmgames.com</strong> or use the Support page.
+          (Discord link can be added here once you’re ready.)
+        </p>
+
+        <p class="muted">
+          Publisher website for Unity Asset Store reviewers: <code>https://walidalbabi.github.io/</code>
+        </p>
+      </section>
+
+      <aside class="card">
+        <h2 style="margin-top:0">Promo</h2>
+        <img class="heroimg" src="assets/promo_banner.jpg" alt="Phoenix Realm Publisher promo banner">
+
+        <h2>Links</h2>
+        <ul>
+          <li><a href="support.html">Support / Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="https://github.com/walidalbabi">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/walidalbabi/">LinkedIn</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer>© <span id="y"></span> Phoenix Realm Publisher</footer>
   </div>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
